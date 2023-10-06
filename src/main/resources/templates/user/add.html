@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add User</title>
+</head>
+<body>
+    <h1>Add User</h1>
+    <form method="POST" action="/user">
+        <label for="userName">UserName:</label>
+        <input type="text" id="userName" name="userName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="verifyPassword">Verify Password:</label>
+        <input type="password" id="verifyPassword" name="verifyPassword" required>
+
+        <input type="submit" value="Add User">
+    </form>
+
+</body>
+</html>
